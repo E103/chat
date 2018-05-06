@@ -1,0 +1,20 @@
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="gitalk/gitalk.css">
+	</head>
+	<body>
+		<div id="gitalk-container"></div>
+		<script src="gitalk/gitalk.js"></script>
+		<script type="text/javascript">
+			var gitalk = new Gitalk({
+				clientID: 'bc2057dbec76f7e5a32b',
+				clientSecret: '485a6eff70f534008e4bdbdaf7441b2751b6a710',
+				repo: 'chat',
+				owner: 'E103',
+				admin: ['Antimoney', 'outloudvi'],
+				distractionFreeMode: true
+			});
+			gitalk.render('gitalk-container');
+		</script>
+	</body>
+</html>
